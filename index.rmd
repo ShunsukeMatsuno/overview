@@ -30,6 +30,7 @@ Each project has two steps:
 By simulating the model, we know the correct parameters, so we can see if the estimation works well. I do not use real data used in original papers because I don't have access to these data and I cannot share the data even if I have the data. However, once the estimation code that works for the simulated data is written up, we can just replace the simulated data with the real data. 
 
 ### Bird, Karolyi, and Ruchti (2019, JAE)
+- HEML: [Click here](NumbersGame.html).
 - Github URL: https://github.com/ShunsukeMatsuno/NumbersGame_Replication
 - Paper: [Bird, A., Karolyi, S. A., & Ruchti, T. G. (2019). Understanding the “numbers game”. Journal of Accounting and Economics, 68(2-3), 101242.](https://www.sciencedirect.com/science/article/pii/S0165410119300370)
 - Progress: 90\%.
