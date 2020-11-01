@@ -30,15 +30,14 @@ Each project has two steps:
 By simulating the model, we know the correct parameters, so we can see if the estimation works well. I do not use real data used in original papers because I don't have access to these data and I cannot share the data even if I have the data. However, once the estimation code that works for the simulated data is written up, we can just replace the simulated data with the real data. 
 
 ### Bird, Karolyi, and Ruchti (2019, JAE)
-- HTML: [Click here](CheynelLiuWatts.html).
 - Github URL: https://github.com/ShunsukeMatsuno/NumbersGame_Replication
 - Paper: [Bird, A., Karolyi, S. A., & Ruchti, T. G. (2019). Understanding the “numbers game”. Journal of Accounting and Economics, 68(2-3), 101242.](https://www.sciencedirect.com/science/article/pii/S0165410119300370)
 - Progress: 90\%.
 - Description: This paper focuses on the incentive to beat an earnings benchmark. The feature of this paper is that they discretize the problem so that manager chooses on which bins their reported earnings is. 
 
 ### Cheynel and Liu-Watts (2020, RAST)
+- HTML: [Click here](CheynelLiuWatts.html).
 - Github: https://github.com/ShunsukeMatsuno/DisclosureCost
-- HTML: 
 - Paper: [Cheynel, E., & Liu-Watts, M. (2020). A simple structural estimator of disclosure costs. Review of Accounting Studies, 1-45.](https://link.springer.com/article/10.1007/s11142-019-09511-1)
 - Progress: 50\%
 - Description: 
