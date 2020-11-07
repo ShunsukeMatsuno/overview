@@ -99,14 +99,25 @@ code span.ot { color: #007020; }
 <li>Estimate the structural parameters using the simulated data.</li>
 </ol>
 <p>By simulating the model, we know the correct parameters, so we can see if the estimation works well. I do not use real data used in original papers because I don’t have access to these data and I cannot share the data even if I have the data. However, once the estimation code that works for the simulated data is written up, we can just replace the simulated data with the real data.</p>
+<p>The purpose of the replication codes are not to replicate all the tables and figures. Rather, I replicate only the essential results.</p>
 <div id="bird-karolyi-and-ruchti-2019-jae" class="section level3">
 <h3>Bird, Karolyi, and Ruchti (2019, JAE)</h3>
 <ul>
-<li>HEML: <a href="NumbersGame.html">Click here</a>.</li>
+<li>HTML: <a href="NumbersGame.html">Click here</a>.</li>
 <li>Github URL: <a href="https://github.com/ShunsukeMatsuno/NumbersGame_Replication" class="uri">https://github.com/ShunsukeMatsuno/NumbersGame_Replication</a></li>
 <li>Paper: <a href="https://www.sciencedirect.com/science/article/pii/S0165410119300370">Bird, A., Karolyi, S. A., &amp; Ruchti, T. G. (2019). Understanding the “numbers game”. Journal of Accounting and Economics, 68(2-3), 101242.</a></li>
 <li>Progress: 90%.</li>
 <li>Description: This paper focuses on the incentive to beat an earnings benchmark. The feature of this paper is that they discretize the problem so that manager chooses on which bins their reported earnings is.</li>
+</ul>
+</div>
+<div id="bertomeu-cheynel-li-and-liang-2020-ms" class="section level3">
+<h3>Bertomeu, Cheynel, Li, and Liang (2020, MS)</h3>
+<ul>
+<li>HTML: <a href="BCXL.html">Click here</a>.</li>
+<li>Github URL: <a href="https://github.com/ShunsukeMatsuno/BertomeuCeynelLiLiang" class="uri">https://github.com/ShunsukeMatsuno/BertomeuCeynelLiLiang</a></li>
+<li>Paper: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3680697">Bertomeu, J., Cheynel, E., Li, E. X., &amp; Liang, Y. (2020). How pervasive is earnings management? Evidence from a structural model. Management Science.</a></li>
+<li>Progress: 70%.</li>
+<li>Description: This paper estimates a signaling game to derive the cost of earnings management. A feature of their model is that the model allows closed-form likelihood function, and thus the estimation is fairly straightforward. (I think) closed-form likelihood function is not available if one considers discontinous benefit function as in Bird et al. (2019). Compare the histograms with those of Bird et al. (2020).</li>
 </ul>
 </div>
 <div id="cheynel-and-liu-watts-2020-rast" class="section level3">
@@ -115,8 +126,8 @@ code span.ot { color: #007020; }
 <li>HTML: <a href="CheynelLiuWatts.html">Click here</a>.</li>
 <li>Github: <a href="https://github.com/ShunsukeMatsuno/DisclosureCost" class="uri">https://github.com/ShunsukeMatsuno/DisclosureCost</a></li>
 <li>Paper: <a href="https://link.springer.com/article/10.1007/s11142-019-09511-1">Cheynel, E., &amp; Liu-Watts, M. (2020). A simple structural estimator of disclosure costs. Review of Accounting Studies, 1-45.</a></li>
-<li>Progress: 50%</li>
-<li>Description:</li>
+<li>Progress: 90%</li>
+<li>Description: This paper offers a simple structural estimator of the disclosure cost. The idea is, they invert the function <span class="math inline">\(\textrm{(disclosure frequency)}_{i}= f(c_i)\)</span> to get <span class="math inline">\(c_i = f^{-1} (\textrm{(disclosure frequency)}_{i})\)</span>, where <span class="math inline">\(f\)</span> is given by Verecchia’s (1990, JAE) model.</li>
 </ul>
 </div>
 </div>

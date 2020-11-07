@@ -29,17 +29,29 @@ Each project has two steps:
 
 By simulating the model, we know the correct parameters, so we can see if the estimation works well. I do not use real data used in original papers because I don't have access to these data and I cannot share the data even if I have the data. However, once the estimation code that works for the simulated data is written up, we can just replace the simulated data with the real data. 
 
+
+The purpose of the replication codes are not to replicate all the tables and figures. Rather, I replicate only the essential results.
+
 ### Bird, Karolyi, and Ruchti (2019, JAE)
-- HEML: [Click here](NumbersGame.html).
+- HTML: [Click here](NumbersGame.html).
 - Github URL: https://github.com/ShunsukeMatsuno/NumbersGame_Replication
 - Paper: [Bird, A., Karolyi, S. A., & Ruchti, T. G. (2019). Understanding the “numbers game”. Journal of Accounting and Economics, 68(2-3), 101242.](https://www.sciencedirect.com/science/article/pii/S0165410119300370)
 - Progress: 90\%.
 - Description: This paper focuses on the incentive to beat an earnings benchmark. The feature of this paper is that they discretize the problem so that manager chooses on which bins their reported earnings is. 
 
+
+### Bertomeu, Cheynel, Li, and Liang (2020, MS)
+- HTML: [Click here](BCXL.html).
+- Github URL: https://github.com/ShunsukeMatsuno/BertomeuCeynelLiLiang
+- Paper: [Bertomeu, J., Cheynel, E., Li, E. X., & Liang, Y. (2020). How pervasive is earnings management? Evidence from a structural model. Management Science.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3680697)
+- Progress: 70\%.
+- Description: This paper estimates a signaling game to derive the cost of earnings management. A feature of their model is that the model allows closed-form likelihood function, and thus the estimation is fairly straightforward. (I think) closed-form likelihood function is not available if one considers discontinous benefit function as in Bird et al. (2019). Compare the histograms with those of Bird et al. (2020).
+
+
 ### Cheynel and Liu-Watts (2020, RAST)
 - HTML: [Click here](CheynelLiuWatts.html).
 - Github: https://github.com/ShunsukeMatsuno/DisclosureCost
 - Paper: [Cheynel, E., & Liu-Watts, M. (2020). A simple structural estimator of disclosure costs. Review of Accounting Studies, 1-45.](https://link.springer.com/article/10.1007/s11142-019-09511-1)
-- Progress: 50\%
-- Description: 
+- Progress: 90\%
+- Description: This paper offers a simple structural estimator of the disclosure cost. The idea is, they invert the function $\textrm{(disclosure frequency)}_{i}= f(c_i)$ to get $c_i = f^{-1} (\textrm{(disclosure frequency)}_{i})$, where $f$ is given by Verecchia's (1990, JAE) model.
     
