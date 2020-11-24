@@ -54,4 +54,11 @@ The purpose of the replication codes are not to replicate all the tables and fig
 - Paper: [Cheynel, E., & Liu-Watts, M. (2020). A simple structural estimator of disclosure costs. Review of Accounting Studies, 1-45.](https://link.springer.com/article/10.1007/s11142-019-09511-1)
 - Progress: 90\%
 - Description: This paper offers a simple structural estimator of the disclosure cost. The idea is, they invert the function $\textrm{(disclosure frequency)}_{i}= f(c_i)$ to get $c_i = f^{-1} (\textrm{(disclosure frequency)}_{i})$, where $f$ is given by Verecchia's (1990, JAE) model.
+
+### In Progress
+- Zakolyukina (2018, JAR)
+- Beyer, Guttman, and Marinovic (2019, TAR)
+- Zhou (2020, MngSci)
+- Bertomeu, Ma, and Marinovic (2020, TAR)
+- Dou, Huddart, Xue, and Zhang (2020, JAE)
     
